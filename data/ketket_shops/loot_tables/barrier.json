@@ -11,10 +11,10 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Blocked",
-                  "color": "dark_red",
-                  "bold": true,
-                  "italic": false
+                  text: "Blocked",
+                  color: "dark_red",
+                  bold: 1b,
+                  italic: 0b
                 },
                 "entity": "this"
               },
@@ -26,9 +26,9 @@
                 "function": "set_lore",
                 "lore": [
                   {
-                    "text": "Before storing products, set up your shop.",
-                    "color": "white",
-                    "italic": false
+                    text: "Before storing products, set up your shop.",
+                    color: "white",
+                    italic: 0b
                   }
                 ]
               }
