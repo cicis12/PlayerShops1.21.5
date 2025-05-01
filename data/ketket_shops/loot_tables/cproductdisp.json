@@ -11,18 +11,18 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Product: ",
-                  "color": "gold",
-                  "bold": false,
-                  "italic": false,
+                  text: "Product: ",
+                  color: "gold",
+                  bold: 0b,
+                  italic: 0b,
                   "extra": [
                       {
                         "score": {
                           "name": "@s",
                           "objective": "product_count"
                         },
-                        "color": "yellow",
-                        "bold": true
+                        color: "yellow",
+                        bold: 1b
                       }
                   ]
                 },
@@ -32,9 +32,9 @@
                 "function": "set_lore",
                 "lore": [
                   {
-                    "text": "Your current product.",
-                    "color": "yellow",
-                    "italic": false
+                    text: "Your current product.",
+                    color: "yellow",
+                    italic: 0b
                   }
                 ]
               },
