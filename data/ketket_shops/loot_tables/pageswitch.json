@@ -11,10 +11,10 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Return to main page",
-                  "color": "light_gray",
-                  "bold": true,
-                  "italic": false
+                  text: "Return to main page",
+                  color: "light_gray",
+                  bold: true,
+                  italic: false
                 },
                 "entity": "this"
               },
