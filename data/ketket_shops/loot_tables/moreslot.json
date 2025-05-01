@@ -11,10 +11,10 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Shop Setup",
-                  "color": "yellow",
-                  "bold": true,
-                  "italic": false
+                  text: "Shop Setup",
+                  color: "yellow",
+                  bold: 1b,
+                  italic: 0b
                 },
                 "entity": "this"
               },
@@ -22,9 +22,9 @@
                 "function": "set_lore",
                 "lore": [
                   {
-                    "text": "Click here to set up your shop.",
-                    "color": "white",
-                    "italic": false
+                    text: "Click here to set up your shop.",
+                    color: "white",
+                    italic: 0b
                   }
                 ]
               },
