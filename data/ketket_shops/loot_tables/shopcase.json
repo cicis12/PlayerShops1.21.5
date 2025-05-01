@@ -11,10 +11,10 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Shopcase",
-                  "color": "yellow",
-                  "bold": false,
-                  "italic": false
+                  text: "Shopcase",
+                  color: "yellow",
+                  bold: 0b,
+                  italic: 0b
                 },
                 "entity": "this"
               },
