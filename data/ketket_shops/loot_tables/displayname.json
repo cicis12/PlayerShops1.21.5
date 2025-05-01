@@ -11,10 +11,10 @@
             {
               "function": "set_name",
               "name": {
-                "text": "Display Name",
-                "color": "gold",
-                "bold": true,
-                "italic": false
+                text: "Display Name",
+                color: "gold",
+                bold: 1b,
+                italic: 0b
               },
               "entity": "this"
             },
@@ -22,24 +22,24 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Write the text you want and replace it here.",
-                  "color": "white",
-                  "italic": false
+                  text: "Write the text you want and replace it here.",
+                  color: "white",
+                  italic: 0b
                 },
                 {
-                  "text": "The text will be displayed on top of the price.",
-                  "color": "white",
-                  "italic": false
+                  text: "The text will be displayed on top of the price.",
+                  color: "white",
+                  italic: 0b
                 },
                 {
-                  "text": "You can customize the text with minecraft text format.",
-                  "color": "white",
-                  "italic": false
+                  text: "You can customize the text with minecraft text format.",
+                  color: "white",
+                  italic: 0b
                 },
                 {
-                  "text": "(Don't sign it!)",
-                  "color": "white",
-                  "italic": false
+                  text: "(Don't sign it!)",
+                  color: "white",
+                  italic: 0b
                 }
               ]
             },
