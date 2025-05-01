@@ -11,10 +11,10 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Close Menu",
-                  "color": "dark_red",
-                  "bold": true,
-                  "italic": false
+                  text: "Close Menu",
+                  color: "dark_red",
+                  bold: 1b,
+                  italic: 0b
                 },
                 "entity": "this"
               },
