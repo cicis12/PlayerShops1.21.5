@@ -11,10 +11,10 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Shop Reset",
-                  "color": "red",
-                  "bold": true,
-                  "italic": false
+                  text: "Shop Reset",
+                  color: "red",
+                  bold: 1b,
+                  italic: 0b
                 },
                 "entity": "this"
               },
@@ -22,9 +22,9 @@
                 "function": "set_lore",
                 "lore": [
                   {
-                    "text": "Shift Click to reset shop settings.",
-                    "color": "white",
-                    "italic": false
+                    text: "Shift Click to reset shop settings.",
+                    color: "white",
+                    italic: 0b
                   }
                 ]
               },
