@@ -11,10 +11,10 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Price",
-                  "color": "gold",
-                  "bold": true,
-                  "italic": false
+                  text: "Price",
+                  color: "gold",
+                  bold: 1b,
+                  italic: 0b
                 },
                 "entity": "this"
               },
@@ -22,9 +22,9 @@
                 "function": "set_lore",
                 "lore": [
                   {
-                    "text": "Your current product price.",
-                    "color": "yellow",
-                    "italic": false
+                    text: "Your current product price.",
+                    color: "yellow",
+                    italic: 0b
                   }
                 ]
               },
