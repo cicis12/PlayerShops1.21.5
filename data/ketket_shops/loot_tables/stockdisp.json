@@ -11,49 +11,49 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Current Stock: ",
-                  "color": "gray",
-                  "bold": false,
-                  "italic": false,
+                  text: "Current Stock: ",
+                  color: "gray",
+                  bold: 0b,
+                  italic: 0b,
                   "extra": [
                     {
                       "score": {
                         "name": "@s",
                         "objective": "currentstock"
                       },
-                      "color": "white",
-                      "bold": true
+                      color: "white",
+                      bold: 1b
                     },
                     {
-                      "text": " / ",
-                      "color": "gray",
-                      "bold": false
+                      text: " / ",
+                      color: "gray",
+                      bold: 0b
                     },
                     {
                       "score": {
                         "name": "@s",
                         "objective": "totalstock"
                       },
-                      "color": "white",
-                      "bold": true
+                      color: "white",
+                      bold: 1b
                     },
                     {
-                      "text": " - ",
-                      "color": "gray",
-                      "bold": false
+                      text: " - ",
+                      color: "gray",
+                      bold: 0b
                     },
                     {
                       "score": {
                         "name": "@s",
                         "objective": "totalstock_chestcount"
                       },
-                      "color": "white",
-                      "bold": false
+                      color: "white",
+                      bold: 0b
                     },                    
                     {
-                      "text": " / 18",
-                      "color": "white",
-                      "bold": false
+                      text: " / 18",
+                      color: "white",
+                      bold: 0b
                     }
                   ]
                 },
@@ -67,14 +67,14 @@
                 "function": "set_lore",
                 "lore": [
                   {
-                    "text": "Click to empty stock.",
-                    "color": "white",
-                    "italic": false
+                    text: "Click to empty stock.",
+                    color: "white",
+                    italic: 0b
                   },
                   {
-                    "text": "For more stock limit, drop chest to stock slot. ",
-                    "color": "white",
-                    "italic": false
+                    text: "For more stock limit, drop chest to stock slot. ",
+                    color: "white",
+                    italic: 0b
                   }
                 ]
               }
