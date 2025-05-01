@@ -11,18 +11,18 @@
             {
               "function": "set_name",
               "name": {
-                "text": "Total Earn: ",
-                "color": "gold",
-                "bold": false,
-                "italic": false,
+                text: "Total Earn: ",
+                color: "gold",
+                bold: 0b,
+                italic: 0b,
                 "extra": [
                   {
                     "score": {
                       "name": "@s",
                       "objective": "totalearn"
                     },
-                    "color": "yellow",
-                    "bold": true
+                    color: "yellow",
+                    bold: 1b
                   }
                 ]
               },
@@ -37,9 +37,9 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Shift + Click to collect.",
-                  "color": "yellow",
-                  "italic": false
+                  text: "Shift + Click to collect.",
+                  color: "yellow",
+                  italic: 0b
                 }
               ],
               "entity": "this"
