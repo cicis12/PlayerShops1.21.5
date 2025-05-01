@@ -11,10 +11,10 @@
               {
                 "function": "set_name",
                 "name": {
-                  "text": "Save Changes",
-                  "color": "green",
-                  "bold": true,
-                  "italic": false
+                  text: "Save Changes",
+                  color: "green",
+                  bold: 1b,
+                  italic: 0b
                 },
                 "entity": "this"
               },
